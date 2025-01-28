@@ -65,7 +65,7 @@ If those sub-expressions are not elements themselves, they must be surrounded by
 
 ### BNF Grammar
 
-'''bnf
+```bnf
 <element> ::= "True" | "False" | <identifier>
 <paren-expr> ::= <element> | "(" <expr> ")"
 <negation> ::= "not" <paren-expr>
@@ -78,6 +78,7 @@ If those sub-expressions are not elements themselves, they must be surrounded by
                 | "show" <id-list> ";" 
                 | "show_ones" <id-list> ";"
 <program> ::= <instruction> | <instruction> <program>
+```
 
 ## Output Specification
 
