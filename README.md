@@ -103,3 +103,6 @@ If those sub-expressions are not elements themselves, they must be surrounded by
    - The rows must be enumerated in **lexicographic order**.  
    - In other words, if there are `n` variables, the first `n` columns are treated as a binary integer (with the first column corresponding to the **first-declared variable** and the **most significant bit**).  
    - This binary integer increases monotonously from one row to the next.
+  
+## How to run it?
+"python3 table.py your_file.txt" where your file should have the preceding commands. I put some examples files in folder "input".
