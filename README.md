@@ -78,7 +78,6 @@ If those sub-expressions are not elements themselves, they must be surrounded by
                 | "show" <id-list> ";" 
                 | "show_ones" <id-list> ";"
 <program> ::= <instruction> | <instruction> <program>
-'''bnf
 
 ## Output Specification
 
