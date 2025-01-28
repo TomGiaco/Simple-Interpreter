@@ -105,4 +105,4 @@ If those sub-expressions are not elements themselves, they must be surrounded by
    - This binary integer increases monotonously from one row to the next.
   
 ## How to run it?
-"python3 table.py your_file.txt" where your file should have the preceding commands. I put some examples files in folder "input".
+`python3 table.py your_file.txt` where your file should have the preceding commands. I put some examples files in folder `input_example`.
